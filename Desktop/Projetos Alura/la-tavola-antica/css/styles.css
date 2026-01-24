@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
     --background-primary-color: #f1eee9; 
     --background-secondary-color:#faf8f3; 
@@ -14,6 +28,9 @@
     --button-primary-color: #8b2f39;
     --button-secondary-color:#6b1f2a;
    
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight:500;
 }
 
 /*CSS RESET*/
