@@ -28,6 +28,9 @@
     --button-primary-color: #8b2f39;
     --button-secondary-color:#6b1f2a;
    
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight:500;
 }
 
 /*CSS RESET*/
