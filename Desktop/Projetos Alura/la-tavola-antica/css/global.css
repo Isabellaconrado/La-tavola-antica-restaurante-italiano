@@ -20,8 +20,8 @@
     --background-quinary-color:#8b2f39;
 
     --text-primary-color:#702731;
-    --text-secondary-color:#fdfcf9;
-    --text-tertiary-color:#6b1f2a;
+    --text-secondary-color:#6b1f2a#fdfcf9;
+    --text-tertiary-color:;
     --text-quaternary-color:#8b6f61;
     --text-quinary-color:#c9a961;
 
