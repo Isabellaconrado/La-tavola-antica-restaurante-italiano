@@ -16,6 +16,9 @@ header {
 
 .logo-mobile {
   display: block;
+  width: 44px;
+  height: 44px;
+  margin-top: 8px;
 }
 
 .logo-desktop {
