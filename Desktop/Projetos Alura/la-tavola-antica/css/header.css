@@ -1,50 +1,80 @@
 header {
-    background-color: var(--background-primary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 38px 48px;
-    position: relative;
+  background-color: var(--background-primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
-    display: inline-block;
-    width: 64px;
-    height: 62px;
+  display: inline-block;
+  width: 64px;
+  height: 62px;
 }
 
 .navegation-menu {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .menu-hamburguer {
-     width: 40px;
-     height: 36px;
+  width: 40px;
+  height: 36px;
 }
 
-input[type="checkbox"]:checked ~nav {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--background-primary-color);
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-primary-color);
 }
 
 nav {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 
 .list-links {
-    list-style: none;
+  list-style: none;
+  font-weight: var(--);
 }
 .list-links li {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .list-links li a {
-    color: var(--text-secondary-color);
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .navegation-menu {
+        margin-top: 0; 
+    }
+        
+    .navegation-menu label {
+        display: none;
+    }
+
+    .navegation-menu nav {
+        display: block;
+    }
+    .navegation-menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        width: 600px;
+        font-size: 20px;
+    }
+
+    .navegation-menu li {
+        margin: 0; 
+    }
 }
