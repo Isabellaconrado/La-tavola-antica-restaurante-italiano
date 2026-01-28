@@ -5,11 +5,24 @@
   background-size: cover;
 }
 
+.hero p {
+  padding: 70px 24px;
+  margin: 0;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background: url(../img/imagem-banner-principal.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero p {
+    padding: 70px 60px;
   }
 }
 
@@ -18,5 +31,9 @@
     height: 620px;
     background: url(../img/imagem-banner-principal.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero p {
+    padding: 70px 120px;
   }
 }
