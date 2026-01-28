@@ -1,45 +1,72 @@
 @font-face {
-    font-family: "Inter";
-    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Playfair Display";
-    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Playfair Display";
+  src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
-:root{
-    --background-primary-color: #f1eee9; 
-    --background-secondary-color:#faf8f3; 
-    --background-tertiary-color: #ffffff;
-    --background-quaternary-color:#5c4033;
-    --background-quinary-color:#8b2f39;
+:root {
+  --background-primary-color: #f1eee9;
+  --background-secondary-color: #faf8f3;
+  --background-tertiary-color: #ffffff;
+  --background-quaternary-color: #5c4033;
+  --background-quinary-color: #8b2f39;
 
-    --text-primary-color:#702731;
-    --text-secondary-color:#6b1f2a;
-    --text-tertiary-color:#fdfcf9;
-    --text-quaternary-color:#8b6f61;
-    --text-quinary-color:#c9a961;
+  --text-primary-color: #702731;
+  --text-secondary-color: #6b1f2a;
+  --text-tertiary-color: #fdfcf9;
+  --text-quaternary-color: #8b6f61;
+  --text-quinary-color: #c9a961;
 
-    --button-primary-color: #8b2f39;
-    --button-secondary-color:#6b1f2a;
-   
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight:500;
+  --button-primary-color: #8b2f39;
+  --button-secondary-color: #6b1f2a;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /*CSS RESET*/
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", sans-serif;     
+  font-family: "Inter", sans-serif;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  font-family: "Playfair Display";
+  color: var(--text-secondary-color);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--text-quinary-color);
+  border: none;
+  margin: 16px auto 32px;
 }
