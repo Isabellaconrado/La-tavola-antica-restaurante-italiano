@@ -1,0 +1,106 @@
+header {
+  background-color: var(--background-primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 48px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  width: 64px;
+  height: 62px;
+}
+
+.logo-mobile {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin-top: 8px;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+.navegation-menu {
+  margin-top: 16px;
+}
+
+.menu-hamburguer {
+  width: 40px;
+  height: 36px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-primary-color);
+}
+
+nav {
+  display: none;
+  width: 100%;
+}
+
+.list-links {
+  list-style: none;
+  font-weight: var(--text-weight);
+}
+.list-links li {
+  margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--menu-text-weight);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navegation-menu {
+    margin-top: 0;
+  }
+
+  .navegation-menu label {
+    display: none;
+  }
+
+  .navegation-menu nav {
+    display: block;
+  }
+  .navegation-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .navegation-menu li {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 1.8rem;
+    font-weight: var(--text-weight);
+    color: var(--text-secondary-color);
+    position: absolute;
+    margin-top: 12px;
+  }
+}
