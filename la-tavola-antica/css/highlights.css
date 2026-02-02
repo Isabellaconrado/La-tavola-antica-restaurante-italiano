@@ -1,7 +1,14 @@
+.highlights-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .highlights-cards article {
   display: block;
   position: relative;
-  width: 312px;
+  width: 262px;
   height: 350px;
   border-radius: 10px;
   background-position: center;
@@ -50,4 +57,32 @@
   margin: 10px;
   color: var(--text-quinary-color);
   font-family: "Inter";
+}
+
+@media screen and (min-width: 768px) {
+  .highlights-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .highlights-cards article {
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .highlights-cards {
+    gap: 54px;
+  }
+
+  .highlights-cards article {
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .highlights-cards article {
+    width: 340px;
+  }
 }
