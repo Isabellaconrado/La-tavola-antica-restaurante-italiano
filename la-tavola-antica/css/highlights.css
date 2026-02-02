@@ -4,11 +4,29 @@
   width: 312px;
   height: 350px;
   border-radius: 10px;
-  background-image: url(../img/imagem-spaghetti-alla-carbonara-v2.jpg);
   background-position: center;
+  background-size: cover;
   justify-content: center;
   overflow: hidden;
   margin-bottom: 30px;
+}
+
+.highlights-cards .spaghetti {
+  background-image: url(../img/imagem-spaghetti-alla-carbonara-v2.jpg);
+}
+
+.highlights-cards .pizza-margherita {
+  background-image: url(../img/pizza-margherita-v3.jpg);
+}
+
+.highlights-cards .risotto {
+  background-image: url(../img/risotto-ai-funghi-v4.jpg);
+  background-position-y: -40px;
+}
+
+.highlights-cards .lasagna {
+  background-image: url(../img/lasagna-alla-bolognese-v4.jpg);
+  background-position-y: -50px;
 }
 
 .dish-information {
@@ -33,4 +51,3 @@
   color: var(--text-quinary-color);
   font-family: "Inter";
 }
-
