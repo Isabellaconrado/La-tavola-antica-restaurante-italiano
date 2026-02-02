@@ -1,0 +1,53 @@
+.highlights-cards article {
+  display: block;
+  position: relative;
+  width: 312px;
+  height: 350px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.highlights-cards .spaghetti {
+  background-image: url(../img/imagem-spaghetti-alla-carbonara-v2.jpg);
+}
+
+.highlights-cards .pizza-margherita {
+  background-image: url(../img/pizza-margherita-v3.jpg);
+}
+
+.highlights-cards .risotto {
+  background-image: url(../img/risotto-ai-funghi-v4.jpg);
+  background-position-y: -40px;
+}
+
+.highlights-cards .lasagna {
+  background-image: url(../img/lasagna-alla-bolognese-v4.jpg);
+  background-position-y: -50px;
+}
+
+.dish-information {
+  color: var(--text-primary-color);
+  width: 100%;
+  height: 200px;
+  background-color: var(--background-tertiary-color);
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 240px;
+  padding: 0;
+}
+
+.dish-information h3 {
+  margin: 10px;
+  font-family: "Playfair Display";
+  font-weight: var(--menu-text-weight);
+}
+
+.dish-information p {
+  margin: 10px;
+  color: var(--text-quinary-color);
+  font-family: "Inter";
+}
