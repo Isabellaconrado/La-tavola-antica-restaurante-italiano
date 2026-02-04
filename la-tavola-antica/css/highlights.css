@@ -42,9 +42,8 @@
   height: 200px;
   background-color: var(--background-tertiary-color);
   font-size: 18px;
-  display: inline-block;
   margin-top: 240px;
-  padding: 0;
+  padding: 0px;
 }
 
 .dish-information h3 {
@@ -82,7 +81,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .highlights-cards {
+    max-width: 1048px;
+    margin: auto;    
+  }
   .highlights-cards article {
-    width: 340px;
+    width: 450px;
   }
 }
