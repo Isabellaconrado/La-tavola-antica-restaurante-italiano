@@ -81,7 +81,7 @@ body {
 }
 
 .button {
-  width: 90px;
+  min-width: 90px;
   height: 20px;
   color: var(--text-tertiary-color);
   background-color: var(--button-primary-color);
