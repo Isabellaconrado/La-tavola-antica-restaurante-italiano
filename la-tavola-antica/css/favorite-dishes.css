@@ -10,16 +10,8 @@
   text-align: center;
   margin: auto;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 0 0 20px;
   box-sizing: border-box;
-}
-
-
-.dish-image a {
-  height: 30px;
-  font-size: 14px;
-  line-height: 30px;
-  margin: 0 0 250px 0;
 }
 
 .dish-image {
@@ -28,6 +20,17 @@
   height: 300px;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.dish-image .button {
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+ 
 }
 
 .dish-description {
