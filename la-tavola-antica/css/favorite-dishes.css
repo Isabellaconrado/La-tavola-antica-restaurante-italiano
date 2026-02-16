@@ -2,13 +2,13 @@
   background-color: #f5f1e8;
 }
 
-.card-dishes {
+.dish {
   width: 280px;
   height: auto;
   background-color: var(--background-tertiary-color);
   border-radius: 10px;
   text-align: center;
-  margin: auto;
+  margin: 30px auto;
   overflow: hidden;
   padding: 0 0 0 20px;
   box-sizing: border-box;
