@@ -10,17 +10,18 @@
   text-align: center;
   margin: 30px auto;
   overflow: hidden;
-  padding: 0 0 0 20px;
   box-sizing: border-box;
+  background: cover;
 }
 
 .dish-image {
   padding: 0;
   width: 100%;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .dish-image .button {
@@ -35,8 +36,9 @@
 .dish-description {
   width: 240px;
   text-align: left;
-  margin: 150px 0 40px 0;
+  margin: 50px 0 40px 0;
   font-family: "Inter";
+  padding: 0 20px 0;
 }
 .dish h3 {
   font-family: "Playfair Display";
@@ -60,4 +62,5 @@
   margin: 0 0 20px 0;
 
   font-size: 15px;
+  margin: 0 20px 20px;
 }
