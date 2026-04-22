@@ -98,3 +98,14 @@ body {
   right: 12px;
 }
 
+.base-box {
+  min-width: 280px;
+  height: auto;
+  background-color: var(--background-tertiary-color);
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: cover;
+}
