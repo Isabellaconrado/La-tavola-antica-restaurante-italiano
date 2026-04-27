@@ -89,3 +89,24 @@
 .photo-large {
   grid-column: span 2;
 }
+
+.text-content .button {
+  position: static;
+  margin: 30px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 25px;
+  border-radius: 35px;
+  width: 700px;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    grid-template-columns: 100%;
+    padding: 30px;
+  }
+
+  .text-content .button {
+    margin: 10px 0 35px 0;
+  } 
+}
