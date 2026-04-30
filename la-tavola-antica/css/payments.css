@@ -183,3 +183,31 @@
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .payments {
+    padding: 20px;
+  }
+  
+  .base-box {
+    padding: 10px;
+  }
+  
+  .base-box .icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .text-content .base-box .content {
+    margin: 0 0 0 10px;
+  }
+  .text-content .base-box .content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .image-content {
+    grid-template-rows: 300px 165px;
+    gap: 15px;
+  }
+}
