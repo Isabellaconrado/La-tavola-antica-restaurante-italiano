@@ -1,9 +1,9 @@
 .payments {
   background-color: var(--background-secondary-color);
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
-  padding: 70px;
+  padding: 25px;
 }
 
 .payments .text-content .section-title hr {
@@ -11,11 +11,12 @@
   width: 150px;
   height: 5px;
 }
+.text-content {
+  margin: auto;
+}
 
 .base-box {
   width: 100%;
-  max-width: 750px;
-  margin: 0;
   margin-bottom: 30px;
   display: flex;
   padding: 30px;
@@ -64,13 +65,14 @@
 
 /* Imagens */
 
-.payments .image-content {
+.image-content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 420px 250px;
   gap: 20px;
   border-radius: 20px;
-  width: 100%;
+  width: auto;
+  margin: auto;
 }
 
 .image-content img {
