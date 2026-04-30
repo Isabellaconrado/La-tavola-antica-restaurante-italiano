@@ -12,7 +12,7 @@
   height: 5px;
 }
 .text-content {
-  margin: auto;
+  width: 100%;
 }
 
 .base-box {
@@ -71,8 +71,12 @@
   grid-template-rows: 420px 250px;
   gap: 20px;
   border-radius: 20px;
-  width: auto;
+  width: 100%;
   margin: auto;
+}
+
+.image-content .photo-small {
+  width: 100%;
 }
 
 .image-content img {
@@ -90,6 +94,7 @@
 
 .photo-large {
   grid-column: span 2;
+  width: auto;
 }
 
 .text-content .button {
@@ -153,5 +158,28 @@
 
   .text-content .button {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .base-box {
+    height: auto;
+  }
+
+  .content {
+    width: fit-content;
+  }
+
+  .text-content .reservations .content p {
+    font-size: 15px;
+  }
+
+  .text-content .reservations .content h2 {
+    font-size: 40px;
   }
 }
