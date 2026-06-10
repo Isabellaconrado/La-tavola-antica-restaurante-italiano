@@ -1,5 +1,12 @@
-.section-title {
+.testimonials {
+    margin: 20px 0 0 0;
+}
+
+.testimonials .section-title p {
   margin: auto;
+  text-align: center;
+  color: var(--text-senary-color);
+  font-family: "Inter", sans-serif;
 }
 
 .testimonials-conteiner {
