@@ -65,3 +65,9 @@
   font-size: 12px;
   color: var(--text-quaternary-color);
 }
+
+@media screen and (min-width: 425px) {
+  .base-box {
+    height: auto;
+  }
+}
