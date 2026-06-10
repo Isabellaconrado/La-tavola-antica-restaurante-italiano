@@ -1,8 +1,9 @@
 .testimonials {
-    margin: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .testimonials .section-title p {
+  width: 93%;
   margin: auto;
   text-align: center;
   color: var(--text-senary-color);
