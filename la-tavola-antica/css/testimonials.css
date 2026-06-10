@@ -71,3 +71,23 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    padding: 20px;
+  }
+
+  .testimonials-conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .client-rating p {
+    line-height: 26px;
+  }
+
+  .client-profile {
+    line-height: 23px;
+  }
+}
