@@ -1,0 +1,38 @@
+.impotant-informations {
+  color: var(--text-tertiary-color);
+  background-color: var(--background-quaternary-color);
+}
+
+.footer-header {
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 340px;
+
+  background-image:
+    linear-gradient(to right, var(--background-quinary-color), transparent),
+    url("../img/lasagna-alla-bolognese-v3.jpg");
+  background-size: cover;
+}
+
+.footer-header h3,
+.footer-header p {
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
+
+.footer-header h3 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+}
+
+.footer-header p {
+  line-height: 28px;
+  padding: 0 20px;
+}
+
+.footer-content {
+  padding: 20px;
+  background-color: var(--background-quaternary-color);
+}
